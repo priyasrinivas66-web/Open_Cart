@@ -25,22 +25,4 @@ Browser Driver	Selenium WebDriver 4.x (WebDriverManager for driver binaries)
 Reporting	TestNG HTML reports / ExtentReports
 Waits	Explicit waits (WebDriverWait) — no hardcoded Thread.sleep()
 
-opencart-testing-showcase/
-├── manual-testcases/
-│   ├── login_testcases.md
-│   ├── registration_testcases.md
-│   ├── checkout_testcases.md
-│   └── ...
-├── automation/
-│   ├── src/
-│   │   ├── main/java/          # framework utilities (driver factory, config reader, etc.)
-│   │   └── test/java/
-│   │       ├── pages/          # Page Object classes
-│   │       ├── tests/          # TestNG test classes
-│   │       └── utils/          # test data, waits, helpers
-│   ├── pom.xml
-│   └── testng.xml
-├── .github/
-│   └── workflows/
-│       └── selenium-tests.yml  # CI pipeline
-└── README.md
+
